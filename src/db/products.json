@@ -1,0 +1,576 @@
+[
+    {
+        "name": "Arroz",
+        "description": "Arroz blanco de grano largo",
+        "price": 1.200,
+        "category": "Alimentos",
+        "stock": 100
+    },
+    {
+        "name": "Frijoles",
+        "description": "Frijoles negros",
+        "price": 1.500,
+        "category": "Alimentos",
+        "stock": 100
+    },
+    {
+        "name": "Aceite",
+        "description": "Aceite vegetal",
+        "price": 2.000,
+        "category": "Alimentos",
+        "stock": 100
+    },
+    {
+        "name": "Azúcar",
+        "description": "Azúcar blanca",
+        "price": 1.000,
+        "category": "Alimentos",
+        "stock": 100
+    },
+    {
+        "name": "Sal",
+        "description": "Sal de mesa",
+        "price": 500,
+        "category": "Alimentos",
+        "stock": 100
+    },
+    {
+        "name": "Harina",
+        "description": "Harina de trigo",
+        "price": 1.300,
+        "category": "Alimentos",
+        "stock": 100
+    },
+    {
+        "name": "Leche",
+        "description": "Leche entera",
+        "price": 1.200,
+        "category": "Lácteos",
+        "stock": 100
+    },
+    {
+        "name": "Huevos",
+        "description": "Huevos frescos",
+        "price": 2.500,
+        "category": "Alimentos",
+        "stock": 100
+    },
+    {
+        "name": "Pan",
+        "description": "Pan de molde",
+        "price": 1.000,
+        "category": "Alimentos",
+        "stock": 100
+    },
+    {
+        "name": "Pasta",
+        "description": "Pasta de trigo",
+        "price": 1.100,
+        "category": "Alimentos",
+        "stock": 100
+    },
+    {
+        "name": "Pollo",
+        "description": "Pollo entero",
+        "price": 5.000,
+        "category": "Carnes",
+        "stock": 100
+    },
+    {
+        "name": "Carne de res",
+        "description": "Carne de res molida",
+        "price": 7.000,
+        "category": "Carnes",
+        "stock": 100
+    },
+    {
+        "name": "Pescado",
+        "description": "Pescado fresco",
+        "price": 6.000,
+        "category": "Carnes",
+        "stock": 100
+    },
+    {
+        "name": "Manzanas",
+        "description": "Manzanas rojas",
+        "price": 3.000,
+        "category": "Frutas",
+        "stock": 100
+    },
+    {
+        "name": "Plátanos",
+        "description": "Plátanos maduros",
+        "price": 1.200,
+        "category": "Frutas",
+        "stock": 100
+    },
+    {
+        "name": "Naranjas",
+        "description": "Naranjas frescas",
+        "price": 2.500,
+        "category": "Frutas",
+        "stock": 100
+    },
+    {
+        "name": "Tomates",
+        "description": "Tomates frescos",
+        "price": 1.800,
+        "category": "Verduras",
+        "stock": 100
+    },
+    {
+        "name": "Cebollas",
+        "description": "Cebollas blancas",
+        "price": 1.500,
+        "category": "Verduras",
+        "stock": 100
+    },
+    {
+        "name": "Papas",
+        "description": "Papas frescas",
+        "price": 2.000,
+        "category": "Verduras",
+        "stock": 100
+    },
+    {
+        "name": "Zanahorias",
+        "description": "Zanahorias frescas",
+        "price": 1.300,
+        "category": "Verduras",
+        "stock": 100
+    },
+    {
+        "name": "Lechuga",
+        "description": "Lechuga fresca",
+        "price": 1.000,
+        "category": "Verduras",
+        "stock": 100
+    },
+    {
+        "name": "Yogur",
+        "description": "Yogur natural",
+        "price": 1.500,
+        "category": "Lácteos",
+        "stock": 100
+    },
+    {
+        "name": "Queso",
+        "description": "Queso cheddar",
+        "price": 3.000,
+        "category": "Lácteos",
+        "stock": 100
+    },
+    {
+        "name": "Mantequilla",
+        "description": "Mantequilla sin sal",
+        "price": 2.000,
+        "category": "Lácteos",
+        "stock": 100
+    },
+    {
+        "name": "Jabón",
+        "description": "Jabón de baño",
+        "price": 800,
+        "category": "Higiene",
+        "stock": 100
+    },
+    {
+        "name": "Shampoo",
+        "description": "Shampoo para el cabello",
+        "price": 3.500,
+        "category": "Higiene",
+        "stock": 100
+    },
+    {
+        "name": "Papel higiénico",
+        "description": "Papel higiénico de 4 rollos",
+        "price": 2.500,
+        "category": "Higiene",
+        "stock": 100
+    },
+    {
+        "name": "Pasta dental",
+        "description": "Pasta dental con flúor",
+        "price": 1.500,
+        "category": "Higiene",
+        "stock": 100
+    },
+    {
+        "name": "Detergente",
+        "description": "Detergente para ropa",
+        "price": 4.000,
+        "category": "Limpieza",
+        "stock": 100
+    },
+    {
+        "name": "Desinfectante",
+        "description": "Desinfectante multiusos",
+        "price": 3.000,
+        "category": "Limpieza",
+        "stock": 100
+    },
+    {
+        "name": "Esponjas",
+        "description": "Esponjas para lavar platos",
+        "price": 1.000,
+        "category": "Limpieza",
+        "stock": 100
+    },
+    {
+        "name": "Trapeador",
+        "description": "Trapeador de microfibra",
+        "price": 5.000,
+        "category": "Limpieza",
+        "stock": 100
+    },
+    {
+        "name": "Escoba",
+        "description": "Escoba de cerdas duras",
+        "price": 3.000,
+        "category": "Limpieza",
+        "stock": 100
+    },
+    {
+        "name": "Jugo de naranja",
+        "description": "Jugo de naranja natural",
+        "price": 2.000,
+        "category": "Bebidas",
+        "stock": 100
+    },
+    {
+        "name": "Agua embotellada",
+        "description": "Agua embotellada de 1 litro",
+        "price": 1.000,
+        "category": "Bebidas",
+        "stock": 100
+    },
+    {
+        "name": "Café",
+        "description": "Café molido",
+        "price": 4.000,
+        "category": "Bebidas",
+        "stock": 100
+    },
+    {
+        "name": "Té",
+        "description": "Té verde",
+        "price": 2.500,
+        "category": "Bebidas",
+        "stock": 100
+    },
+    {
+        "name": "Galletas",
+        "description": "Galletas de chocolate",
+        "price": 1.500,
+        "category": "Snacks",
+        "stock": 100
+    },
+    {
+        "name": "Papas fritas",
+        "description": "Papas fritas en bolsa",
+        "price": 1.200,
+        "category": "Snacks",
+        "stock": 100
+    },
+    {
+        "name": "Cereal",
+        "description": "Cereal de maíz",
+        "price": 3.000,
+        "category": "Desayuno",
+        "stock": 100
+    },
+    {
+        "name": "Avena",
+        "description": "Avena instantánea",
+        "price": 2.000,
+        "category": "Desayuno",
+        "stock": 100
+    },
+    {
+        "name": "Mermelada",
+        "description": "Mermelada de fresa",
+        "price": 2.500,
+        "category": "Desayuno",
+        "stock": 100
+    },
+    {
+        "name": "Miel",
+        "description": "Miel de abeja",
+        "price": 3.500,
+        "category": "Desayuno",
+        "stock": 100
+    },
+    {
+        "name": "Salsa de tomate",
+        "description": "Salsa de tomate",
+        "price": 1.500,
+        "category": "Condimentos",
+        "stock": 100
+    },
+    {
+        "name": "Mayonesa",
+        "description": "Mayonesa",
+        "price": 2.000,
+        "category": "Condimentos",
+        "stock": 100
+    },
+    {
+        "name": "Mostaza",
+        "description": "Mostaza",
+        "price": 1.500,
+        "category": "Condimentos",
+        "stock": 100
+    },
+    {
+        "name": "Vinagre",
+        "description": "Vinagre blanco",
+        "price": 1.000,
+        "category": "Condimentos",
+        "stock": 100
+    },
+    {
+        "name": "Salsa de soya",
+        "description": "Salsa de soya",
+        "price": 2.000,
+        "category": "Condimentos",
+        "stock": 100
+    },
+    {
+        "name": "Ajo",
+        "description": "Ajo fresco",
+        "price": 1.000,
+        "category": "Condimentos",
+        "stock": 100
+    },
+    {
+        "name": "Pimienta",
+        "description": "Pimienta negra molida",
+        "price": 1.500,
+        "category": "Condimentos",
+        "stock": 100
+    },
+    {
+        "name": "Orégano",
+        "description": "Orégano seco",
+        "price": 1.000,
+        "category": "Condimentos",
+        "stock": 100
+    },
+    {
+        "name": "Canela",
+        "description": "Canela en polvo",
+        "price": 1.200,
+        "category": "Condimentos",
+        "stock": 100
+    },
+    {
+        "name": "Clavos de olor",
+        "description": "Clavos de olor",
+        "price": 1.500,
+        "category": "Condimentos",
+        "stock": 100
+    },
+    {
+        "name": "Laurel",
+        "description": "Hojas de laurel",
+        "price": 1.000,
+        "category": "Condimentos",
+        "stock": 100
+    },
+    {
+        "name": "Comino",
+        "description": "Comino molido",
+        "price": 1.000,
+        "category": "Condimentos",
+        "stock": 100
+    },
+    {
+        "name": "Curry",
+        "description": "Curry en polvo",
+        "price": 1.500,
+        "category": "Condimentos",
+        "stock": 100
+    },
+    {
+        "name": "Papel aluminio",
+        "description": "Papel aluminio de 10 metros",
+        "price": 2.000,
+        "category": "Cocina",
+        "stock": 100
+    },
+    {
+        "name": "Film plástico",
+        "description": "Film plástico de 30 metros",
+        "price": 1.500,
+        "category": "Cocina",
+        "stock": 100
+    },
+    {
+        "name": "Servilletas",
+        "description": "Servilletas de papel",
+        "price": 1.000,
+        "category": "Cocina",
+        "stock": 100
+    },
+    {
+        "name": "Bolsas de basura",
+        "description": "Bolsas de basura de 30 litros",
+        "price": 2.500,
+        "category": "Cocina",
+        "stock": 100
+    },
+    {
+        "name": "Fósforos",
+        "description": "Fósforos de madera",
+        "price": 500,
+        "category": "Cocina",
+        "stock": 100
+    },
+    {
+        "name": "Encendedor",
+        "description": "Encendedor de cocina",
+        "price": 1.000,
+        "category": "Cocina",
+        "stock": 100
+    },
+    {
+        "name": "Velas",
+        "description": "Velas de parafina",
+        "price": 1.500,
+        "category": "Cocina",
+        "stock": 100
+    },
+    {
+        "name": "Cuchillos",
+        "description": "Cuchillos de cocina",
+        "price": 5.000,
+        "category": "Cocina",
+        "stock": 100
+    },
+    {
+        "name": "Tenedores",
+        "description": "Tenedores de acero inoxidable",
+        "price": 3.000,
+        "category": "Cocina",
+        "stock": 100
+    },
+    {
+        "name": "Cucharas",
+        "description": "Cucharas de acero inoxidable",
+        "price": 3.000,
+        "category": "Cocina",
+        "stock": 100
+    },
+    {
+        "name": "Platos",
+        "description": "Platos de cerámica",
+        "price": 10.000,
+        "category": "Cocina",
+        "stock": 100
+    },
+    {
+        "name": "Vasos",
+        "description": "Vasos de vidrio",
+        "price": 8.000,
+        "category": "Cocina",
+        "stock": 100
+    },
+    {
+        "name": "Sartenes",
+        "description": "Sartenes antiadherentes",
+        "price": 15.000,
+        "category": "Cocina",
+        "stock": 100
+    },
+    {
+        "name": "Ollas",
+        "description": "Ollas de acero inoxidable",
+        "price": 20.000,
+        "category": "Cocina",
+        "stock": 100
+    },
+    {
+        "name": "Cafetera",
+        "description": "Cafetera eléctrica",
+        "price": 25.000,
+        "category": "Cocina",
+        "stock": 100
+    },
+    {
+        "name": "Tostadora",
+        "description": "Tostadora de pan",
+        "price": 20.000,
+        "category": "Cocina",
+        "stock": 100
+    },
+    {
+        "name": "Licuadora",
+        "description": "Licuadora de 1.500 litros",
+        "price": 30.000,
+        "category": "Cocina",
+        "stock": 100
+    },
+    {
+        "name": "Microondas",
+        "description": "Microondas de 20 litros",
+        "price": 50.000,
+        "category": "Cocina",
+        "stock": 100
+    },
+    {
+        "name": "Refrigerador",
+        "description": "Refrigerador de 200 litros",
+        "price": 300.000,
+        "category": "Cocina",
+        "stock": 100
+    },
+    {
+        "name": "Lavadora",
+        "description": "Lavadora de 10 kg",
+        "price": 400.000,
+        "category": "Electrodomésticos",
+        "stock": 100
+    },
+    {
+        "name": "Plancha",
+        "description": "Plancha de vapor",
+        "price": 25.000,
+        "category": "Electrodomésticos",
+        "stock": 100
+    },
+    {
+        "name": "Aspiradora",
+        "description": "Aspiradora de 1200W",
+        "price": 100.000,
+        "category": "Electrodomésticos",
+        "stock": 100
+    },
+    {
+        "name": "Televisor",
+        "description": "Televisor LED de 32 pulgadas",
+        "price": 200.000,
+        "category": "Electrodomésticos",
+        "stock": 100
+    },
+    {
+        "name": "Computadora",
+        "description": "Computadora portátil",
+        "price": 500.000,
+        "category": "Electrónica",
+        "stock": 100
+    },
+    {
+        "name": "Teléfono móvil",
+        "description": "Teléfono móvil inteligente",
+        "price": 300.000,
+        "category": "Electrónica",
+        "stock": 100
+    },
+    {
+        "name": "Tablet",
+        "description": "Tablet de 10 pulgadas",
+        "price": 200.000,
+        "category": "Electrónica",
+        "stock": 100
+    }
+]

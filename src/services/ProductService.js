@@ -7,7 +7,7 @@ class ProductService {
     async getProducts() {
         return await Product.find();
     }
-    async getProduct(id) {
+    async getProductById(id) {
         return await Product.findById(id);
     }
     async createProduct(product) {

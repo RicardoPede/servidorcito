@@ -1,4 +1,4 @@
-import ProductService from "../services/ProductServicce.js";
+import ProductService from "../services/ProductService.js";
 
 export const getProducts = async (req, res) => {
     try {
@@ -18,9 +18,9 @@ export const getProducts = async (req, res) => {
     }
 }
 
-export const getProduct = async (req, res) => {
+export const getProductById = async (req, res) => {
     try {
-        const product = await ProductService.getProduct(req.params.id);
+        const product = await ProductService.getProductById(req.params.id);
         if (!product) {
             throw({
                 status: 404,

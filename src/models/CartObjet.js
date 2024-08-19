@@ -2,8 +2,13 @@ import { Schema, model } from 'mongoose';
 import ProductClassSchema from './ProductClass.js';
 
 const CartObjetSchema = new Schema({
-    ...ProductClassSchema.obj,
-    amount: { type: Number, required: true },
+    products: [
+        {
+            ...ProductClassSchema.obj,
+            amount: { type: Number, required: true },
+            date: { type: Date, default: Date.now },
+        }
+    ],
     date: { type: Date, default: Date.now },
     user: { type: Schema.Types.ObjectId, ref: 'User' }
 }, {
